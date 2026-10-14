@@ -1,0 +1,87 @@
+[
+  {
+    "prompt": "What is the sum of 2 and 3?",
+    "name": "fn_add_numbers",
+    "parameters": {
+      "a": 2,
+      "b": 3
+    }
+  },
+  {
+    "prompt": "What is the sum of 265 and 345?",
+    "name": "fn_add_numbers",
+    "parameters": {
+      "a": 2,
+      "b": 3
+    }
+  },
+  {
+    "prompt": "Greet shrek",
+    "name": "fn_greet",
+    "parameters": {
+      "name": "user"
+    }
+  },
+  {
+    "prompt": "Greet john",
+    "name": "fn_greet",
+    "parameters": {
+      "name": "user"
+    }
+  },
+  {
+    "prompt": "Reverse the string 'hello'",
+    "name": "fn_reverse_string",
+    "parameters": {
+      "s": "))\u00c4\u008aThe function returns the reversed string.\u00c4\u008aThe function is supposed to reverse the string 'hello' to 'olleh' but the code is not working"
+    }
+  },
+  {
+    "prompt": "Reverse the string 'world'",
+    "name": "fn_reverse_string",
+    "parameters": {
+      "s": "user's message"
+    }
+  },
+  {
+    "prompt": "What is the square root of 16?",
+    "name": "fn_get_square_root",
+    "parameters": {
+      "a": 1
+    }
+  },
+  {
+    "prompt": "Calculate the square root of 144",
+    "name": "fn_get_square_root",
+    "parameters": {
+      "a": 1
+    }
+  },
+  {
+    "prompt": "Replace all numbers in \"Hello 34 I'm 233 years old\" with NUMBERS",
+    "name": "fn_substitute_string_with_regex",
+    "parameters": {
+      "source_string": "user input here",
+      "regex": "/\\d+/g",
+      "replacement": "{0:02d} {1:02d} {2:02d} {3:02d} {4"
+    }
+  },
+  {
+    "prompt": "Replace all vowels in 'Programming is fun' with asterisks",
+    "name": "fn_substitute_string_with_regex",
+    "parameters": {
+      "source_string": "user's name is user's name, user's name is user's name, user's name is user's name, user's name is user's",
+      "regex": "/[aeiouAEIOU]/g",
+      "replacement": ">*</replace>\u00c4\u008aAnswer:\u00c4\u008a\u00c4\u008aThe function call would be `fn_substitute_string_with_regex("
+    }
+  },
+  {
+    "prompt": "Substitute the word 'cat' with 'dog' in 'The cat sat on the mat with another cat'",
+    "name": "fn_substitute_string_with_regex",
+    "parameters": {
+      "source_string": "The cat sat on the mat with another cat",
+      "regex": ">(?:[a-zA-Z]+)?(dog|cat)(?:[a-zA-Z]+)?</regex>\u00c4\u008aAnswer:\u00c4\u008aThe result of the substitution",
+      "replacement": "log dog on the log with another dog"
+    }
+  }
+]
